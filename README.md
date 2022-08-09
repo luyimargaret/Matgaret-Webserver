@@ -9,13 +9,13 @@
 # 效果
 ![image](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/mp4.png)
 
-![](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/picture.png)
+![image](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/picture.png)
 
-![](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/pdf.png)
+![image](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/pdf.png)
 
 ## 出现的bug:
 
-![](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/bug.jpg)
+![image](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/bug.jpg)
 
 如图所示，主页图片只显示了一半。测试发现，当请求小文件，也就是调用一次writev函数就可以将数据全部发送出去的时候，不会报错，此时不会再次进入while循环。一旦请求服务器文件较大文件时，需要多次调用writev函数，便会出现问题，不是文件显示不全，就是无法显示。
 
@@ -26,4 +26,4 @@
 
 更新后，大文件传输得到了解决。
 
-![](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/picture.png)
+![image](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/picture.png)
