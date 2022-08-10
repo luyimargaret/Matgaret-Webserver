@@ -15,7 +15,7 @@
 
 ## 出现的bug:
 
-![image](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/bug.jpg)
+![image](https://github.com/luyimargaret/Matgaret-Webserver/blob/simple_webserver2.0/img/bug.jpg)
 
 如图所示，主页图片只显示了一半。测试发现，当请求小文件，也就是调用一次writev函数就可以将数据全部发送出去的时候，不会报错，此时不会再次进入while循环。一旦请求服务器文件较大文件时，需要多次调用writev函数，便会出现问题，不是文件显示不全，就是无法显示。
 
