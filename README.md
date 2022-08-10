@@ -7,7 +7,7 @@
 - 经自己编写的压力测试程序（epoll实现）测试，可实现**上千个并发连接下的稳定数据交换**。
 
 # 效果
-<img>(https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/mp4.png)
+![image](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/mp4.png)
 
 ![image](https://github.com/luyimargaret/Matgaret-s-Webserver/blob/simple_webserver1.0/img/picture.png)
 
